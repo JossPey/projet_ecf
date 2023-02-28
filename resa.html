@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>réservations</title>
+</head>
+<body class="bookTable">
+
+    <header>
+        <div class="mousemove"></div>
+
+        <div class="grid">      
+            <div class="logo"> <p> Le <br> Quai <br> Antique <br> <img src="img/icone.png" alt=""> </p></div>
+            <div class="productor"><p class="textIntro"> Au déjeuner comme au diner, <span>le Quai Antique</span> vous offre une experience gastronomique à travers une cuisine simple et proche de vous, en effet en travaillant des prodiuts locaux et de saison nous faisons tout notre possible pour être au plus proche de vous, de plus,  nous travaillons exclusivement avec des producteurs voisins. Osez le pas, vous ne le regretterez pas, le Chef Arnaud Michant est là pour ça. </p></div>
+        </div>
+        
+        <nav>
+            <div class="onglets">
+                <ul>
+                    <a href="resa.html"><li class="resa">Les réservations</li></a>
+                    <a href="about.html"><li class="about">A propos de nous</li></a>
+                    <a href="contact.html"><li class="contact">Nous contacter</li></a>
+                    <a href="adress.html"><li class="adress">Nous trouver</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+  
+    <h1>Réservation de table</h1>
+    <form>
+      <label for="name">Nom & Prénom :</label>
+      <input type="text" id="name" name="name" autocomplete="off" required ><br><br>
+      <label for="phone">Numéro de téléphone :</label>
+      <input type="text" id="phone" name="phone" autocomplete="off" required ><br><br>
+      <label for="allergies">Alergies potentielles :</label>
+      <input type="text" id="allergies" name="allergies" autocomplete="off"><br><br>
+      <label for="Nombres">Nombre de couverts :</label>
+      <input type="text" id="couverts" name="couverts" autocomplete="off" required ><br><br>
+      <label for="date">Date :</label>
+      <input type="text" id="date" name="date" autocomplete="off" required ><br><br>
+      <select name="hour" id="hour" required >
+        <option value="hour-select">Selectionner une heure</option>
+        <option value="hour-select">11h00</option>
+        <option value="hour-select">11h15</option>
+        <option value="hour-select">11h30</option>
+        <option value="hour-select">11h45</option>
+        <option value="hour-select">12h00</option>
+        <option value="hour-select">12h15</option>
+        <option value="hour-select">12h30</option>
+        <option value="hour-select">12h45</option>
+        <option value="hour-select">13h00</option>
+        <option value="hour-select">13h15</option>
+        <option value="hour-select">13h30</option>
+        <option value="hour-select">13h45</option>
+        <option value="hour-select">14h00</option>
+
+        <option value="hour-select">18h00</option>
+        <option value="hour-select">18h15</option>
+        <option value="hour-select">18h30</option>
+        <option value="hour-select">18h45</option>
+        <option value="hour-select">19h00</option>
+        <option value="hour-select">19h15</option>
+        <option value="hour-select">19h30</option>
+        <option value="hour-select">19h45</option>
+        <option value="hour-select">20h00</option>
+        <option value="hour-select">20h15</option>
+        <option value="hour-select">20h30</option>
+        <option value="hour-select">20h45</option>
+        <option value="hour-select">21h00</option>
+    </select><br><br>
+        <input type="submit" value="Réserver"><br><br>
+    </form>
+    
+    <a href="index.html"><button>Accueil</button></a>
+    
+
+
+    
+    <footer>
+        <div class="left"><p><a href="contact.html">Contact</a></p></div>
+        <div class="middle"><p>Horaires: <br> <br> Lundi: Fermé <br> Mardi à Dimanche: 11h-15h / 18h-22h </p> </div>
+        <div class="right"><p><a href="adress.html">Où nous trouver ?</a></p> </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
